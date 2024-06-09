@@ -147,75 +147,72 @@ Create Container out of this image and run the container.
 PROD --> mywebapp_img:v1.0			(mywebapp.war_v1.0,jdk11, tomcat9)
 Create Container out of this image and run the container.
 				
-				
-		
-		Terminologies :::
-		
-			Container Image 	# Is a static file, that define the properties(application & its dependencies) of the container
-								# Image are Non-Executable
-								
-			Container			# Executable units of Container Image
-			
-			Container Registry	# Is used to store/Manage the Container Images
-								# DockerHub 
-								
-			Container Repository# It is sub-set of Container Registry
-			
-			Container Engine	# Is used create the Container Image, Container and Manage the Container
-								# Docker Container Engine
-		
-		
-		Docker Containers :::
-		
-		Managed Services ::
-		
-			AWS 		ECS, ECR, EKS
-			
-			AZURE		ACS, ACR, AKS 
-			
-			GCP 		GCE, GCR, GKE
-			
-		DevOps Tools :
-		
-			Open-Source DevOps Tools :
-				git, jekins,docker,kubernetes,.....
-			
-			Managed Services
-			
-				Service Providers - Paid Service 
-			
-			
-		Working with Docker ::
-		
-			Container Registry :
-			
-				Goto https://hub.docker.com/
-				
-				Create Account 
-				
-			Install Docker Container Engine :
-			
-				Jenkins Slave Node :::
-				
-				Launch a Virtual Machine on AWS Cloud Platform 
-				
-					Ubuntu 22.04 
-					
-					Install Docker Engine 			https://docs.docker.com/engine/install/
-					
-					docker cli			# Is a command line utility to interact with Docker Engine and work with Images and Containers
-					
-					
-					As a root user run this command:
-					
-						sudo -i
-						apt update -y
-						apt install docker.io -y
-					
-				
-				docker --version
-				
-				
+Terminologies :::
+
+Container Image 	# Is a static file, that define the properties(application & its dependencies) of the container
+# Image are Non-Executable
+
+Container			# Executable units of Container Image
+
+Container Registry	# Is used to store/Manage the Container Images
+# DockerHub
+
+Container Repository# It is sub-set of Container Registry
+
+Container Engine	# Is used create the Container Image, Container and Manage the Container
+# Docker Container Engine
+
+
+Docker Containers :::
+
+Managed Services ::
+
+AWS 		ECS, ECR, EKS
+
+AZURE		ACS, ACR, AKS
+
+GCP 		GCE, GCR, GKE
+
+DevOps Tools :
+
+Open-Source DevOps Tools :
+git, jekins,docker,kubernetes,.....
+
+Managed Services
+
+Service Providers - Paid Service
+
+
+Working with Docker ::
+
+Container Registry :
+
+Goto https://hub.docker.com/
+
+Create Account
+
+Install Docker Container Engine :
+
+Jenkins Slave Node :::
+
+Launch a Virtual Machine on AWS Cloud Platform
+
+Ubuntu 22.04
+
+Install Docker Engine 			https://docs.docker.com/engine/install/
+
+docker cli			# Is a command line utility to interact with Docker Engine and work with Images and Containers
+
+
+As a root user run this command:
+
+sudo -i
+apt update -y
+apt install docker.io -y
+
+
+docker --version
+
+
 Next ::
-		Docker CLI - Misc Command 
-				
+Docker CLI - Misc Command
